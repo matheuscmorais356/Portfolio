@@ -1,0 +1,29 @@
+.social-links {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 2.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.social-links__icon {
+  width: 4rem;
+  height: 4rem;
+  color: var(--primary-color);
+  transition: .4s;
+}
+
+.social-links__icon:hover {
+  transform: scale(1.2);
+}
+
+.social-links__line {
+  width: 0.4rem;
+  height: 15rem;
+  background: var(--white);
+}

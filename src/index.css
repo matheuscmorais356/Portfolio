@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: rgb(0, 255, 234);
+  --bg-color: rgb(44, 45, 48);
+  --bg-color-dark: rgb(36, 37, 41);
+  --light-gray: rgb(156, 156, 157);
+  --gray-opacity: rgba(109, 109, 109, 43%);
+
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+
+  --nav-height: 7.2rem;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--white);
+  background: var(--bg-color-dark);
+}
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+}
+
+section {
+  padding-top: calc(5rem + var(--nav-height)) ;
+  width: 100%;
+}
+
+.wrapper {
+  width: min(125rem, 100%);
+  height: 100%;
+  margin-inline: auto;
+  padding-inline: 2.4rem;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.logo__text {
+  color: var(--white);
+}
+
+ul {
+  list-style: none;
+}
+
+.section-header__title {
+  margin-bottom: 5rem;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--primary-color);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .4s;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.btn-outline:hover {
+  background: var(--primary-color);
+  color: var(--black);
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+}
+
+/* Scrollbar */

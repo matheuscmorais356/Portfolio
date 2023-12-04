@@ -1,0 +1,111 @@
+.project-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.project-card--right {
+  text-align: right;
+  flex-direction: row;
+}
+
+.project-card--left {
+  text-align: left;
+  flex-direction: row-reverse;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.project-card__title {
+  font-size: 2.5rem;
+}
+
+.project-card__description {
+  font-size: 2rem;
+}
+
+.project-technologies {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-card--right .project-technologies {
+  justify-content: flex-end;
+}
+
+.project-card--left .project-technologies {
+  justify-content: flex-start;
+}
+
+.project-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5rem;
+}
+
+.project-card--right .project-links {
+  flex-direction: row;
+}
+
+.project-card--left .project-links {
+  flex-direction: row-reverse;
+}
+
+.project-card__link-site {
+  color: var(--white);
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  background: linear-gradient(to right, transparent 50%, var(--primary-color) 50%);
+  background-size: 200% 100%;
+  transition: background-position 0.5s ease;
+}
+
+.project-card__link-site:hover {
+  color: var(--black); 
+  font-weight: bold;
+}
+
+.project-card--right .project-card__link-site:hover {
+  background-position: 100% 0;
+}
+
+.project-card--left .project-card__link-site:hover {
+  background-position: -100% 0;
+}
+
+.project-links__icon-left,
+.project-links__icon-right {
+  color: var(--primary-color);
+  display: none;
+}
+
+.project-card__link-site:hover .project-links__icon-left,
+.project-card__link-site:hover .project-links__icon-right {
+  color: var(--black);
+}
+
+.project-card--right  .project-links__icon-left{
+  display: block;
+}
+
+.project-card--left  .project-links__icon-right{
+  display: block;
+}
+
+.project-card__link-repository {
+  background: var(--primary-color);
+  color: var(--black);
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1rem;
+}

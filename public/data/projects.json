@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "name": "Tip Caculator",
+      "image": "tipCalculator.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna in risus facilisis, eu cursus tortor venenatis. Maecenas eleifend ex in dolor venenatis, id pulvinar ipsum interdum. Sed facilisis, neque vitae tincidunt malesuada, libero risus luctus arcu, ut scelerisque elit tellus vel ex. Suspendisse in fermentum libero. Sed vel tellus sit amet leo bibendum venenatis a ac odio. Vivamus malesuada facilisis libero, sit amet dictum sapien suscipit vel. In hac habitasse platea dictumst. Integer aliquam, ligula eget interdum varius, leo metus ullamcorper elit, vel hendrerit leo purus vel elit.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "link": "https://matheuscmorais356.github.io/TipCalculator/",
+      "repository": "https://github.com/matheuscmorais356/TipCalculator"
+    },
+    {
+      "name": "calculadora",
+      "image": "tipCalculator.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna in risus facilisis, eu cursus tortor venenatis. Maecenas eleifend ex in dolor venenatis, id pulvinar ipsum interdum. Sed facilisis, neque vitae tincidunt malesuada, libero risus luctus arcu, ut scelerisque elit tellus vel ex. Suspendisse in fermentum libero. Sed vel tellus sit amet leo bibendum venenatis a ac odio. Vivamus malesuada facilisis libero, sit amet dictum sapien suscipit vel. In hac habitasse platea dictumst. Integer aliquam, ligula eget interdum varius, leo metus ullamcorper elit, vel hendrerit leo purus vel elit.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "link": "https://matheuscmorais356.github.io/TipCalculator/",
+      "repository": "https://github.com/matheuscmorais356/TipCalculator"
+    },
+    {
+      "name": "ladora",
+      "image": "tipCalculator.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna in risus facilisis, eu cursus tortor venenatis. Maecenas eleifend ex in dolor venenatis, id pulvinar ipsum interdum. Sed facilisis, neque vitae tincidunt malesuada, libero risus luctus arcu, ut scelerisque elit tellus vel ex. Suspendisse in fermentum libero. Sed vel tellus sit amet leo bibendum venenatis a ac odio. Vivamus malesuada facilisis libero, sit amet dictum sapien suscipit vel. In hac habitasse platea dictumst. Integer aliquam, ligula eget interdum varius, leo metus ullamcorper elit, vel hendrerit leo purus vel elit.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "link": "https://matheuscmorais356.github.io/TipCalculator/",
+      "repository": "https://github.com/matheuscmorais356/TipCalculator"
+    },
+    {
+      "name": "cal",
+      "image": "tipCalculator.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna in risus facilisis, eu cursus tortor venenatis. Maecenas eleifend ex in dolor venenatis, id pulvinar ipsum interdum. Sed facilisis, neque vitae tincidunt malesuada, libero risus luctus arcu, ut scelerisque elit tellus vel ex. Suspendisse in fermentum libero. Sed vel tellus sit amet leo bibendum venenatis a ac odio. Vivamus malesuada facilisis libero, sit amet dictum sapien suscipit vel. In hac habitasse platea dictumst. Integer aliquam, ligula eget interdum varius, leo metus ullamcorper elit, vel hendrerit leo purus vel elit.",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "link": "https://matheuscmorais356.github.io/TipCalculator/",
+      "repository": "https://github.com/matheuscmorais356/TipCalculator"
+    }
+  ]
+}

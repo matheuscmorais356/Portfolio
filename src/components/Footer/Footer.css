@@ -1,0 +1,11 @@
+.footer {
+  width: 100%;
+  height: var(--nav-height);
+  background: var(--bg-color);
+}
+
+.footer .wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
