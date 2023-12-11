@@ -26,11 +26,14 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact-form">
-            <form action="" className="contact__form">
-              <input type="text" className="contact__input" placeholder="E-mail" required/>
-              <input type="text" className="contact__input" placeholder="Assunto" required/>
-              <textarea className="contact__textarea" cols="30" rows="10"  placeholder="Menssagem..." required />
+            <form className="contact__form" action="https://api.staticforms.xyz/submit" method="post" >
+              <input className="contact__input" type="text" name="name" placeholder="Digite seu nome" autoComplete="off" required/>
+              <input className="contact__input" type="text" name="email" placeholder="digite seu email" autoComplete="off" required/>
+              <textarea className="contact__textarea" cols="30" rows="10" name="message" placeholder="Digite sua menssagem..." required />
               <button className="contact-form__btn" type="submit">Enviar</button>
+
+              <input type="hidden" name="accessKey" value="42284c99-4db2-4731-8774-1e85dbb9076d" />
+              <input type="hidden" name="redirectTo" value="http://localhost:3000/#contact" />
             </form>
           </div>
         </div>
