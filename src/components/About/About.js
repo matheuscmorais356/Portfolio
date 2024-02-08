@@ -8,7 +8,8 @@ import {
   SiReact,
   SiJavascript,
   SiHtml5,
-  SiCss3
+  SiCss3,
+  SiRedux 
 } from "react-icons/si";
 // import {
 //   TbBrandJavascript,
@@ -52,7 +53,7 @@ const About = () => {
           <div className="skills">
             <div className="skills-header">
               <span className="skills__line"></span>
-              <h3 className="skills__title">Tecnologias</h3>
+              <h3 className="skills__title">Habilidades</h3>
               <span className="skills__line"></span>
             </div>
             <div className="technologies">
@@ -71,6 +72,10 @@ const About = () => {
               <div className="container-icon">
                 <SiReact className="technologies__icon" />
                 <p className="technologies__title" >React</p>
+              </div>
+              <div className="container-icon">
+                <SiRedux className="technologies__icon" />
+                <p className="technologies__title" >Redux</p>
               </div>
               <div className="container-icon">
                 <SiJavascript className="technologies__icon" />
