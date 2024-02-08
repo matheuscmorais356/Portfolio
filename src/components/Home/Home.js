@@ -24,9 +24,11 @@ const Home = () => {
     <section id="home">
       <div className="wrapper">
         <div className="content">
-          <h2 className="home__subtitle">Ola! eu sou</h2>
-          <h1 className="home__title">Matheus Cardoso Morais</h1>
-          <h2 className="home__subtitle">Desenvolvedor Front-end</h2>
+          <div className="home__presentation">
+            <h2 className="home__subtitle">Ola! eu sou</h2>
+            <h1 className="home__title">Matheus Cardoso Morais</h1>
+            <h2 className="home__subtitle">Desenvolvedor Front-end</h2>
+          </div>
           
           {scrollVisible && (
             <span className="scroll">
