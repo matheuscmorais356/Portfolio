@@ -9,7 +9,8 @@ import {
   SiJavascript,
   SiHtml5,
   SiCss3,
-  SiRedux 
+  SiRedux,
+  SiNodedotjs, 
 } from "react-icons/si";
 // import {
 //   TbBrandJavascript,
@@ -68,6 +69,10 @@ const About = () => {
               <div className="container-icon">
                 <SiPython className="technologies__icon" />
                 <p className="technologies__title" >Python</p>
+              </div>
+              <div className="container-icon">
+                <SiNodedotjs className="technologies__icon" />
+                <p className="technologies__title" >Node.js</p>
               </div>
               <div className="container-icon">
                 <SiReact className="technologies__icon" />

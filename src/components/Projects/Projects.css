@@ -35,3 +35,10 @@
   color: var(--primary-color);
   padding: 1rem;
 }
+
+
+@media (max-width: 600px) {
+  .projects__pill {
+    font-size: 1.4rem;
+  }
+}

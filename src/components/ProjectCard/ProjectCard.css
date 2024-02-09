@@ -109,3 +109,71 @@
   font-weight: bold;
   padding: 1rem;
 }
+
+.project-card__image {
+  width: 50%;
+}
+
+@media (max-width: 1200px) {
+  .project-card__title {
+    font-size: 2rem;
+  }
+
+  .project-card__description {
+    font-size: 1.6rem;
+  }
+
+  .project-card__image {
+    width: 40%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .project-card {
+    flex-direction: column-reverse;
+  }
+
+  .project-card__image,
+  .project-description  {
+    width: 70%;
+  }
+
+  .project-card__description {
+    font-size: 1.8rem;
+  }
+  
+}
+
+@media (max-width: 800px) {
+  .project-card__image,
+  .project-description  {
+    width: 90%;
+  }
+  
+  .project-card__description {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .project-card__image,
+  .project-description  {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-card__title {
+    font-size: 1.8rem;
+  }
+  .project-card__description {
+    font-size: 1.6rem;
+  }
+
+}
+
+@media (max-width: 400px) {
+  .project-card__description {
+    font-size: 1.4rem;
+  }
+}
