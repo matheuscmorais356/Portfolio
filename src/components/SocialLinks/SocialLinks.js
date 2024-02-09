@@ -1,20 +1,26 @@
 import "./SocialLinks.css";
 
 // Icons
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { LiaLinkedinIn, LiaGithub  } from "react-icons/lia";
 
-const SocialLinks = () => {
+const SocialLinks = ({ outline = false }) => {
   return (
     <div className="social-links">
-      <a href="https://github.com/matheuscmorais356" target="_blank" rel="noopener noreferrer">
-        <FaGithub className="social-links__icon" />
-      </a>
-      <a href="https://www.linkedin.com/in/matheus-cardoso356/" target="_blank" rel="noopener noreferrer">
-        <FaLinkedin className="social-links__icon" />
-      </a>
-      
-      <span className="social-links__line"></span>
-    </div>
+            <a 
+              className={outline ? "social-links__btn social-links__btn--outline" : "social-links__btn social-links__btn--filled"} 
+              href="https://github.com/matheuscmorais356"
+            > 
+              <LiaGithub  className="social-links__icon"/>
+              GitHub
+            </a>
+            <a 
+              className={outline ? "social-links__btn social-links__btn--outline" : " social-links__btn social-links__btn--filled"} 
+              href="https://www.linkedin.com/in/matheus-cardoso356/"
+            > 
+              <LiaLinkedinIn className="social-links__icon"/>
+              Linkedin
+            </a>
+          </div>
   )
 }
 

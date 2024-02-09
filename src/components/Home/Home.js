@@ -2,7 +2,9 @@ import "./Home.css";
 
 import { useEffect, useState } from "react";
 
+// Icons
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
+import SocialLinks from "../SocialLinks/SocialLinks";
 
 
 const Home = () => {
@@ -30,6 +32,8 @@ const Home = () => {
             <h2 className="home__subtitle">Desenvolvedor Front-end</h2>
           </div>
           
+          <SocialLinks />
+
           {scrollVisible && (
             <span className="scroll">
               Scroll
