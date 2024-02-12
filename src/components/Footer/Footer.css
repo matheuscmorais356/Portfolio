@@ -9,3 +9,9 @@
   justify-content: flex-start;
   align-items: center;
 }
+
+@media (max-width: 500px) {
+  .footer .logo {
+    font-size: 2rem;
+  }
+}

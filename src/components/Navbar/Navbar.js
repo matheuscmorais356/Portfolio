@@ -48,10 +48,10 @@ const Navbar = () => {
 
           <div className="social-links">
             <a href="https://github.com/matheuscmorais356" target="_blank" rel="noopener noreferrer">
-              <FaGithub className="social-links__icon" />
+              <FaGithub className="social-links__icon-navbar" />
             </a>
             <a href="https://www.linkedin.com/in/matheus-cardoso356/" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="social-links__icon" />
+              <FaLinkedin className="social-links__icon-navbar" />
             </a>
           </div>
         </div>

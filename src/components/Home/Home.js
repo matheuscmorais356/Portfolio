@@ -31,7 +31,7 @@ const Home = () => {
             <h1 className="home__title">Matheus Cardoso Morais</h1>
             <h2 className="home__subtitle">Desenvolvedor Front-end</h2>
           </div>
-          
+
           <SocialLinks />
 
           {scrollVisible && (

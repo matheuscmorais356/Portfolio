@@ -2,8 +2,8 @@ import "./Contact.css";
 
 // Icons
 import { HiOutlineMail, HiOutlineLocationMarker } from "react-icons/hi";
-import { LiaLinkedinIn, LiaGithub } from "react-icons/lia";
-import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+// import { LiaLinkedinIn, LiaGithub } from "react-icons/lia";
+// import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import SocialLinks from "../SocialLinks/SocialLinks";
 
 const Contact = () => {
@@ -29,7 +29,7 @@ const Contact = () => {
               </div>
             </div>
             
-            <SocialLinks outline={ true } />
+            <SocialLinks outline={ true }/>
           </div>
 
           <div className="contact-form">
@@ -37,7 +37,7 @@ const Contact = () => {
               <input className="contact__input" type="text" name="name" placeholder="Digite seu nome" autoComplete="off" required />
               <input className="contact__input" type="text" name="email" placeholder="digite seu email" autoComplete="off" required />
               <textarea className="contact__textarea" cols="30" rows="10" name="message" placeholder="Digite sua menssagem..." required />
-              <button className="contact-form__btn" type="submit">Enviar</button>
+              <button className="contact-form__btn btn-outline" type="submit">Enviar</button>
 
               <input type="hidden" name="accessKey" value="42284c99-4db2-4731-8774-1e85dbb9076d" />
               <input type="hidden" name="redirectTo" value="http://localhost:3000/#contact" />

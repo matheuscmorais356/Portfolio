@@ -96,6 +96,12 @@
   color: var(--primary-color);
 }
 
+.social-links__icon-navbar {
+  width: 3rem;
+  height: 3rem;
+  color: var(--primary-color);
+}
+
 @media (max-width: 800px) {
   .btn-open-menu {
     display: block;
@@ -154,7 +160,9 @@
   .menu--open .menu__link {
     font-size: 2rem;
   }
+}
 
+@media (max-width: 500px) {
   .navigation .logo {
     font-size: 2rem;
   }

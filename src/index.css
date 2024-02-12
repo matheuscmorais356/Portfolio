@@ -88,6 +88,11 @@ ul {
   color: var(--black);
 }
 
+.social-links {
+  display: flex;
+  gap: 2rem;
+}
+
 /* Scrollbar */
 
 ::-webkit-scrollbar {
