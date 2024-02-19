@@ -70,6 +70,7 @@
 
 @media (max-width: 500px) {
   .social-links__btn {
+    width: 50%;
     font-size: 1.4rem;
   }
 }

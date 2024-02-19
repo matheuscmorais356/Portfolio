@@ -1,33 +1,41 @@
 {
   "projects": [
     {
-      "name": "Tip Caculator",
-      "image": "tipCalculator.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna in risus facilisis, eu cursus tortor venenatis. Maecenas eleifend ex in dolor venenatis, id pulvinar ipsum interdum. Sed facilisis, neque vitae tincidunt malesuada, libero risus luctus arcu, ut scelerisque elit tellus vel ex. Suspendisse in fermentum libero. Sed vel tellus sit amet leo bibendum venenatis a ac odio. Vivamus malesuada facilisis libero, sit amet dictum sapien suscipit vel. In hac habitasse platea dictumst. Integer aliquam, ligula eget interdum varius, leo metus ullamcorper elit, vel hendrerit leo purus vel elit.",
-      "technologies": ["JavaScript", "HTML", "CSS"],
-      "link": "https://matheuscmorais356.github.io/TipCalculator/",
-      "repository": "https://github.com/matheuscmorais356/TipCalculator"
+      "name": "MiniBlog",
+      "image": "miniBlog.png",
+      "description": "O projeto foi desenvolvido durante o curso React do zero a maestria do Matheus Battisti. O objetivo foi criar um blog que seria possível fazer um CRUD completo com a criação de usuários e posts, fazer a autenticação do usuário e o controle de sessão e fazer o gerenciamento das postagens podendo editar e excluir. Tudo isso integrado com o Firebase que ficou responsável pelo servidor e o armazenamento dos dados.",
+      "technologies": ["Firebase", "React", "JavaScript", "HTML", "CSS"],
+      "link": "https://mini-blog-kohl.vercel.app/",
+      "repository": "https://github.com/matheuscmorais356/miniBlog"
     },
     {
-      "name": "calculadora",
-      "image": "tipCalculator.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna in risus facilisis, eu cursus tortor venenatis. Maecenas eleifend ex in dolor venenatis, id pulvinar ipsum interdum. Sed facilisis, neque vitae tincidunt malesuada, libero risus luctus arcu, ut scelerisque elit tellus vel ex. Suspendisse in fermentum libero. Sed vel tellus sit amet leo bibendum venenatis a ac odio. Vivamus malesuada facilisis libero, sit amet dictum sapien suscipit vel. In hac habitasse platea dictumst. Integer aliquam, ligula eget interdum varius, leo metus ullamcorper elit, vel hendrerit leo purus vel elit.",
-      "technologies": ["JavaScript", "HTML", "CSS"],
-      "link": "https://matheuscmorais356.github.io/TipCalculator/",
-      "repository": "https://github.com/matheuscmorais356/TipCalculator"
+      "name": "ReactMovies",
+      "image": "reactMovies.png",
+      "description": "O projeto foi desenvolvido durante o curso React do zero a maestria do Matheus Battisti. O objetivo foi criar um site de filmes consumindo a API do TMDB.",
+      "technologies": ["React", "JavaScript", "HTML", "CSS"],
+      "link": "https://react-movies-ebon.vercel.app/",
+      "repository": "https://github.com/matheuscmorais356/ReactMovies"
     },
     {
-      "name": "ladora",
-      "image": "tipCalculator.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna in risus facilisis, eu cursus tortor venenatis. Maecenas eleifend ex in dolor venenatis, id pulvinar ipsum interdum. Sed facilisis, neque vitae tincidunt malesuada, libero risus luctus arcu, ut scelerisque elit tellus vel ex. Suspendisse in fermentum libero. Sed vel tellus sit amet leo bibendum venenatis a ac odio. Vivamus malesuada facilisis libero, sit amet dictum sapien suscipit vel. In hac habitasse platea dictumst. Integer aliquam, ligula eget interdum varius, leo metus ullamcorper elit, vel hendrerit leo purus vel elit.",
-      "technologies": ["JavaScript", "HTML", "CSS"],
-      "link": "https://matheuscmorais356.github.io/TipCalculator/",
-      "repository": "https://github.com/matheuscmorais356/TipCalculator"
+      "name": "ToDo",
+      "image": "ToDo.png",
+      "description": "O objetivo do projeto era criar uma lista de tarefas, os dados estão sendo salvos em local storage.",
+      "technologies": ["React", "JavaScript", "HTML", "CSS"],
+      "link": "https://to-do-alpha-one.vercel.app/",
+      "repository": "https://github.com/matheuscmorais356/ToDo"
     },
     {
-      "name": "cal",
+      "name": "secretWord",
+      "image": "secretWord.png",
+      "description": "O projeto desenvolvido durante o curso React do zero a maestria do Matheus Battisti.",
+      "technologies": ["React", "JavaScript", "HTML", "CSS"],
+      "link": "https://secret-word-chi.vercel.app/",
+      "repository": "https://github.com/matheuscmorais356/SecretWord"
+    },
+    {
+      "name": "TipCalculator",
       "image": "tipCalculator.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque euismod urna in risus facilisis, eu cursus tortor venenatis. Maecenas eleifend ex in dolor venenatis, id pulvinar ipsum interdum. Sed facilisis, neque vitae tincidunt malesuada, libero risus luctus arcu, ut scelerisque elit tellus vel ex. Suspendisse in fermentum libero. Sed vel tellus sit amet leo bibendum venenatis a ac odio. Vivamus malesuada facilisis libero, sit amet dictum sapien suscipit vel. In hac habitasse platea dictumst. Integer aliquam, ligula eget interdum varius, leo metus ullamcorper elit, vel hendrerit leo purus vel elit.",
+      "description": "Esta é uma solução para o desafio do aplicativo de calculadora de gorjetas no Frontend Mentor.",
       "technologies": ["JavaScript", "HTML", "CSS"],
       "link": "https://matheuscmorais356.github.io/TipCalculator/",
       "repository": "https://github.com/matheuscmorais356/TipCalculator"

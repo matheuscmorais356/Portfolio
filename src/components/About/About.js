@@ -1,7 +1,7 @@
 import "./About.css"
 
 import { HiDownload } from "react-icons/hi"
-import { 
+import {
   SiMicrosoftsqlserver,
   SiGit,
   SiPython,
@@ -10,7 +10,7 @@ import {
   SiHtml5,
   SiCss3,
   SiRedux,
-  SiNodedotjs, 
+  SiNodedotjs,
 } from "react-icons/si";
 // import {
 //   TbBrandJavascript,
@@ -39,14 +39,14 @@ const About = () => {
               <h2 className="description__title">Sobre mim</h2>
               <div>
                 <p className="description__text">
-                Ola! Tenho 20 anos, moro em Mauá, São Paulo e sou apaixonado por tecnologia. Meu primeiro contato com programação foi em 2019 por insentivo do meu pai que trabalha na área.
+                  Meu nome é Matheus Cardoso Morais, sou técnico em desenvolvimento de sistemas e atualmente estou cursando análise e desenvolvimento de sistemas na Faculdade Impacta.
                 </p>
                 <p className="description__text">
-                Hoje sou formado em técnico em desenvolvimento de sistemas pela Etec e atualmente estou cursando Análise e Desenvolvimento de Sistemas na Faculdade Impacta. Meu objetivo é futuramente me tornar um desenvolvedor fullstack.
+                  Meu primeiro contato com programação foi em 2019, quando iniciei o curso de desenvolvimento de sistemas, porém só comecei a dar o devido foco em 2021, quando conheci o desenvolvimento web. Desde então, desenvolvi diversos projetos pessoais e acadêmicos, participei de diversos bootcamps da Rocketseat, entre outros...
                 </p>
               </div>
               <button className="description__btn btn-outline">
-                <HiDownload className="description__icon-btn"/>
+                <HiDownload className="description__icon-btn" />
                 Curriculo
               </button>
             </div>
