@@ -10,6 +10,7 @@ const SocialLinks = ({ outline = false }) => {
               className={outline ? "social-links__btn social-links__btn--outline" : "social-links__btn social-links__btn--filled"} 
               href="https://github.com/matheuscmorais356"
               target="_blank"
+              rel="noreferrer"
             > 
               <LiaGithub  className="social-links__icon"/>
               GitHub
@@ -18,6 +19,7 @@ const SocialLinks = ({ outline = false }) => {
               className={outline ? "social-links__btn social-links__btn--outline" : " social-links__btn social-links__btn--filled"} 
               href="https://www.linkedin.com/in/matheus-cardoso356/"
               target="_blank"
+              rel="noreferrer"
             > 
               <LiaLinkedinIn className="social-links__icon"/>
               Linkedin
