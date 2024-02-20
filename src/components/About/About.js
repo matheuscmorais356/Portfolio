@@ -12,17 +12,9 @@ import {
   SiRedux,
   SiNodedotjs,
 } from "react-icons/si";
-// import {
-//   TbBrandJavascript,
-//   TbBrandGit,
-//   TbBrandPython,
-//   TbBrandReact,
-//   TbBrandHtml5,
-//   TbBrandCss3,
-//   TbBrandSass
-// } from "react-icons/tb"
 
-import myPhoto from "../../assets/myPhoto.jpg"
+import myPhoto from "../../assets/myPhoto.jpg";
+import curriculumPdf from "../../assets/curriculo-Matheus-Cardoso-Morais.pdf";
 
 const About = () => {
   return (
@@ -45,10 +37,14 @@ const About = () => {
                   Meu primeiro contato com programação foi em 2019, quando iniciei o curso de desenvolvimento de sistemas, porém só comecei a dar o devido foco em 2021, quando conheci o desenvolvimento web. Desde então, desenvolvi diversos projetos pessoais e acadêmicos, participei de diversos bootcamps da Rocketseat, entre outros...
                 </p>
               </div>
-              <button className="description__btn btn-outline">
+              <a 
+                className="description__btn btn-outline" 
+                href={curriculumPdf}
+                download="curriculo-Matheus-Cardoso-Morais.pdf"
+              >
                 <HiDownload className="description__icon-btn" />
                 Curriculo
-              </button>
+              </a>
             </div>
           </div>
           <div className="skills">
